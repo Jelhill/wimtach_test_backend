@@ -14,8 +14,11 @@ namespace ProJeliliV1.Students.Dto
         public string Address { get; set; }
         public string ProgramName { get; set; }
         public string DoB { get; set; }
+        public int CollegeId { get; set; }
 
         public bool IsActive { get; set; }
+        ///Dto.cs.fields1///
+
         public DateTime CreationTime { get; set; }
 
         public long? CreatorUserId { get; set; }
