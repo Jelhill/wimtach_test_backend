@@ -14,7 +14,6 @@ namespace ProJeliliV1.Students.Dto
         public string DoB { get; set; }
         public int CollegeId { get; set; }
         public bool IsActive { get; set; }
-        ///CreateDto.cs.fields1///
 
     }
 }

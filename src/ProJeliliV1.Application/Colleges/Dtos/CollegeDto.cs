@@ -1,18 +1,13 @@
-
-using Abp.Domain.Entities.Auditing;
-using Abp.Domain.Entities;
 using System;
-using System.Collections.Generic;
+using Abp.Application.Services.Dto;
+using Abp.AutoMapper;
+using ProJeliliV1.Models;
 
-namespace ProJeliliV1.Models
+namespace ProJeliliV1.Colleges.Dto
 {
-    public class College : FullAuditedEntity<int>, IPassivable
+    [AutoMapFrom(typeof(College))]
+    public class CollegeDto : EntityDto<int>
     {
-        public College()
-        {
-            this.IsActive = true;
-            this.CreationTime = DateTime.Now;
-        }
         public string Name { get; set; }
         public string Address { get; set; }
         public string Description { get; set; }
@@ -21,8 +16,7 @@ namespace ProJeliliV1.Models
         public string Email { get; set; }
         public string JeliliString { get; set; }
         public bool IsActive { get; set; }
-
-        public virtual ICollection<Student> Students { get; set; }
-
+        public DateTime CreationTime { get; set; }
+        public long? CreatorUserId { get; set; }
     }
 }

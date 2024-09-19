@@ -26,5 +26,8 @@ namespace ProJeliliV1.EntityFrameworkCore
         } 
         
         public virtual DbSet<Student> Students { get; set; }
+        
+        public virtual DbSet<College> Colleges { get; set; }
+
     }
 }

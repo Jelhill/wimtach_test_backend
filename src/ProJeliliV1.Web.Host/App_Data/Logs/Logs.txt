@@ -1893,3 +1893,952 @@ INFO  2024-09-19 04:31:53,317 [20   ] c.Infrastructure.ControllerActionInvoker -
 INFO  2024-09-19 04:31:53,317 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ProJeliliV1.Web.Host.Controllers.AntiForgeryController.SetCookie (ProJeliliV1.Web.Host)'
 INFO  2024-09-19 04:31:53,318 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 56.7143ms
 INFO  2024-09-19 04:31:53,388 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 113.6930ms
+DEBUG 2024-09-19 05:22:13,473 [ndler] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2024-09-19 05:22:13,480 [ndler] Abp.Modules.AbpModuleManager             - Shutting down completed.
+INFO  2024-09-19 05:22:13,480 [ndler] Microsoft.Hosting.Lifetime               - Application is shutting down...
+DEBUG 2024-09-19 05:22:20,761 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2024-09-19 05:22:20,776 [1    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2024-09-19 05:22:20,784 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProJeliliV1.Web.Host.Startup.ProJeliliV1WebHostModule, ProJeliliV1.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 05:22:20,786 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProJeliliV1.ProJeliliV1WebCoreModule, ProJeliliV1.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 05:22:20,786 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProJeliliV1.ProJeliliV1ApplicationModule, ProJeliliV1.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 05:22:20,786 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProJeliliV1.ProJeliliV1CoreModule, ProJeliliV1.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 05:22:20,786 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 05:22:20,786 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 05:22:20,786 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 05:22:20,787 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 05:22:20,787 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProJeliliV1.EntityFrameworkCore.ProJeliliV1EntityFrameworkModule, ProJeliliV1.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 05:22:20,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 05:22:20,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 05:22:20,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 05:22:20,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 05:22:20,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 05:22:20,789 [1    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2024-09-19 05:22:20,818 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-19 05:22:20,818 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-19 05:22:20,818 [1    ] o.Configuration.LanguageManagementConfig - Converted ProJeliliV1 (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-19 05:22:20,818 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-19 05:22:21,007 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ProJeliliV1.EntityFrameworkCore.ProJeliliV1DbContext, ProJeliliV1.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 05:22:21,122 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2024-09-19 05:22:21,134 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2024-09-19 05:22:21,141 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2024-09-19 05:22:21,145 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProJeliliV1
+DEBUG 2024-09-19 05:22:21,148 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2024-09-19 05:22:21,164 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2024-09-19 05:22:21,164 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Users.Dto.CreateUserDto
+DEBUG 2024-09-19 05:22:21,166 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Users.Dto.UserDto
+DEBUG 2024-09-19 05:22:21,167 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Students.Dto.CreateStudentDto
+DEBUG 2024-09-19 05:22:21,167 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Students.Dto.StudentDto
+DEBUG 2024-09-19 05:22:21,167 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Students.Dto.UpdateStudentDto
+DEBUG 2024-09-19 05:22:21,167 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2024-09-19 05:22:21,167 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Sessions.Dto.UserLoginInfoDto
+DEBUG 2024-09-19 05:22:21,167 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Roles.Dto.PermissionDto
+DEBUG 2024-09-19 05:22:21,167 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2024-09-19 05:22:21,167 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.MultiTenancy.Dto.TenantDto
+DEBUG 2024-09-19 05:22:21,167 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Colleges.Dto.CollegeDto
+DEBUG 2024-09-19 05:22:21,167 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Colleges.Dto.CreateCollegeDto
+DEBUG 2024-09-19 05:22:21,167 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Colleges.Dto.UpdateCollegeDto
+INFO  2024-09-19 05:22:22,542 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name"
+FROM "AbpEditions" AS a
+WHERE a."Name" = 'Standard'
+LIMIT 1
+INFO  2024-09-19 05:22:22,656 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (17ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 05:22:22,661 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 05:22:22,664 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 05:22:22,665 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 05:22:22,666 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 05:22:22,668 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 05:22:22,669 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 05:22:22,671 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 05:22:22,673 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 05:22:22,674 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 05:22:22,675 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 05:22:22,677 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 05:22:22,678 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 05:22:22,691 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE a."TenantId" IS NULL AND a."Name" = 'Admin'
+LIMIT 1
+INFO  2024-09-19 05:22:22,725 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__adminRoleForHost_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Name"
+FROM "AbpPermissions" AS a
+WHERE a."Discriminator" = 'RolePermissionSetting' AND a."TenantId" IS NULL AND a."RoleId" = @__adminRoleForHost_Id_0
+INFO  2024-09-19 05:22:22,740 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE a."TenantId" IS NULL AND a."UserName" = 'admin'
+LIMIT 1
+INFO  2024-09-19 05:22:22,797 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__name_0='?', @__tenantId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE a."Name" = @__name_0 AND a."TenantId" = @__tenantId_1 AND a."UserId" IS NULL)
+INFO  2024-09-19 05:22:22,799 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__name_0='?', @__tenantId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE a."Name" = @__name_0 AND a."TenantId" = @__tenantId_1 AND a."UserId" IS NULL)
+INFO  2024-09-19 05:22:22,801 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__name_0='?', @__tenantId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE a."Name" = @__name_0 AND a."TenantId" = @__tenantId_1 AND a."UserId" IS NULL)
+INFO  2024-09-19 05:22:22,861 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConnectionString", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EditionId", a."IsActive", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenancyName"
+FROM "AbpTenants" AS a
+WHERE a."TenancyName" = 'Default'
+LIMIT 1
+INFO  2024-09-19 05:22:22,880 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE a."TenantId" = @___tenantId_0 AND a."Name" = 'Admin'
+LIMIT 1
+INFO  2024-09-19 05:22:22,883 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@___tenantId_0='?' (DbType = Int32), @__adminRole_Id_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Name"
+FROM "AbpPermissions" AS a
+WHERE a."Discriminator" = 'RolePermissionSetting' AND a."TenantId" = @___tenantId_0 AND a."RoleId" = @__adminRole_Id_1
+INFO  2024-09-19 05:22:22,893 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE a."TenantId" = @___tenantId_0 AND a."UserName" = 'admin'
+LIMIT 1
+INFO  2024-09-19 05:22:22,946 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."Icon", a."IsDeleted", a."IsDisabled", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId"
+FROM "AbpLanguages" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR a."TenantId" IS NULL)
+INFO  2024-09-19 05:22:22,987 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConnectionString", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EditionId", a."IsActive", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenancyName"
+FROM "AbpTenants" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND a."Id" = @__p_0
+LIMIT 1
+INFO  2024-09-19 05:22:22,993 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."Icon", a."IsDeleted", a."IsDisabled", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId"
+FROM "AbpLanguages" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR a."TenantId" = @__ef_filter__CurrentTenantId_2)
+INFO  2024-09-19 05:22:23,024 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_1='?' (DbType = Int32), @__tenantId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId", a."UserId", a."Value"
+FROM "AbpSettings" AS a
+WHERE (@__ef_filter__p_0 OR a."TenantId" = @__ef_filter__CurrentTenantId_1) AND a."UserId" IS NULL AND a."TenantId" = @__tenantId_1
+INFO  2024-09-19 05:22:23,043 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+WARN  2024-09-19 05:22:23,452 [1    ] etCore.Server.Kestrel.Core.KestrelServer - The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+WARN  2024-09-19 05:22:23,453 [1    ] Microsoft.AspNetCore.Server.Kestrel      - Overriding address(es) 'https://localhost:44311/'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+INFO  2024-09-19 05:22:23,462 [1    ] Microsoft.Hosting.Lifetime               - Now listening on: https://localhost:44311
+INFO  2024-09-19 05:22:23,462 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2024-09-19 05:22:23,462 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2024-09-19 05:22:23,462 [1    ] Microsoft.Hosting.Lifetime               - Content root path: /Users/abduljeliliumaru/Desktop/Wimtach/ProJeliliV1/ProJeliliV1/src/ProJeliliV1.Web.Host
+INFO  2024-09-19 05:22:24,240 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - - -
+INFO  2024-09-19 05:22:24,309 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ProJeliliV1.Web.Host.Controllers.HomeController.Index (ProJeliliV1.Web.Host)'
+INFO  2024-09-19 05:22:24,392 [19   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProJeliliV1.Web.Host.Controllers.HomeController (ProJeliliV1.Web.Host).
+INFO  2024-09-19 05:22:24,432 [19   ] c.Infrastructure.ControllerActionInvoker - Executing action method ProJeliliV1.Web.Host.Controllers.HomeController.Index (ProJeliliV1.Web.Host) - Validation state: Valid
+INFO  2024-09-19 05:22:24,437 [19   ] c.Infrastructure.ControllerActionInvoker - Executed action method ProJeliliV1.Web.Host.Controllers.HomeController.Index (ProJeliliV1.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.155ms.
+INFO  2024-09-19 05:22:24,769 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpAuditLogs" ("BrowserInfo", "ClientIpAddress", "ClientName", "CustomData", "Exception", "ExceptionMessage", "ExecutionDuration", "ExecutionTime", "ImpersonatorTenantId", "ImpersonatorUserId", "MethodName", "Parameters", "ReturnValue", "ServiceName", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+INFO  2024-09-19 05:22:24,827 [17   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2024-09-19 05:22:24,836 [17   ] c.Infrastructure.ControllerActionInvoker - Executed action ProJeliliV1.Web.Host.Controllers.HomeController.Index (ProJeliliV1.Web.Host) in 437.3478ms
+INFO  2024-09-19 05:22:24,837 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ProJeliliV1.Web.Host.Controllers.HomeController.Index (ProJeliliV1.Web.Host)'
+INFO  2024-09-19 05:22:24,845 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - 302 0 - 606.5687ms
+INFO  2024-09-19 05:22:24,848 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger - - -
+INFO  2024-09-19 05:22:24,873 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger - 301 0 - 24.7182ms
+INFO  2024-09-19 05:22:24,875 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+INFO  2024-09-19 05:22:24,930 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 54.7461ms
+INFO  2024-09-19 05:22:24,946 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui-bundle.js - - -
+INFO  2024-09-19 05:22:24,946 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - - -
+INFO  2024-09-19 05:22:24,946 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui-standalone-preset.js - - -
+INFO  2024-09-19 05:22:24,946 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui.css - - -
+INFO  2024-09-19 05:22:24,948 [3    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - - -
+INFO  2024-09-19 05:22:24,968 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: '/Users/abduljeliliumaru/Desktop/Wimtach/ProJeliliV1/ProJeliliV1/src/ProJeliliV1.Web.Host/wwwroot/swagger/ui/abp.js'
+INFO  2024-09-19 05:22:24,968 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: '/Users/abduljeliliumaru/Desktop/Wimtach/ProJeliliV1/ProJeliliV1/src/ProJeliliV1.Web.Host/wwwroot/swagger/ui/abp.swagger.js'
+INFO  2024-09-19 05:22:24,968 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - 200 3697 text/javascript 21.6868ms
+INFO  2024-09-19 05:22:24,968 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - 200 8029 text/javascript 20.2033ms
+INFO  2024-09-19 05:22:24,973 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2024-09-19 05:22:24,973 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2024-09-19 05:22:24,973 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui-standalone-preset.js - 200 230293 text/javascript 26.8602ms
+INFO  2024-09-19 05:22:24,973 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui.css - 200 152034 text/css 27.0152ms
+INFO  2024-09-19 05:22:25,003 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2024-09-19 05:22:25,003 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui-bundle.js - 200 1452753 text/javascript 57.0251ms
+INFO  2024-09-19 05:22:25,113 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/favicon-32x32.png - - -
+INFO  2024-09-19 05:22:25,114 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2024-09-19 05:22:25,114 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/favicon-32x32.png - 200 628 image/png 1.1687ms
+INFO  2024-09-19 05:22:25,143 [3    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2024-09-19 05:22:25,144 [3    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ProJeliliV1.Web.Host.Controllers.AntiForgeryController.SetCookie (ProJeliliV1.Web.Host)'
+INFO  2024-09-19 05:22:25,156 [3    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller ProJeliliV1.Web.Host.Controllers.AntiForgeryController (ProJeliliV1.Web.Host).
+INFO  2024-09-19 05:22:25,159 [3    ] c.Infrastructure.ControllerActionInvoker - Executing action method ProJeliliV1.Web.Host.Controllers.AntiForgeryController.SetCookie (ProJeliliV1.Web.Host) - Validation state: Valid
+INFO  2024-09-19 05:22:25,162 [3    ] c.Infrastructure.ControllerActionInvoker - Executed action method ProJeliliV1.Web.Host.Controllers.AntiForgeryController.SetCookie (ProJeliliV1.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 3.3972ms.
+INFO  2024-09-19 05:22:25,170 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2024-09-19 05:22:25,184 [17   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpAuditLogs" ("BrowserInfo", "ClientIpAddress", "ClientName", "CustomData", "Exception", "ExceptionMessage", "ExecutionDuration", "ExecutionTime", "ImpersonatorTenantId", "ImpersonatorUserId", "MethodName", "Parameters", "ReturnValue", "ServiceName", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+INFO  2024-09-19 05:22:25,274 [3    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-09-19 05:22:25,295 [3    ] c.Infrastructure.ControllerActionInvoker - Executed action ProJeliliV1.Web.Host.Controllers.AntiForgeryController.SetCookie (ProJeliliV1.Web.Host) in 139.1101ms
+INFO  2024-09-19 05:22:25,295 [3    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ProJeliliV1.Web.Host.Controllers.AntiForgeryController.SetCookie (ProJeliliV1.Web.Host)'
+INFO  2024-09-19 05:22:25,296 [3    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 152.3464ms
+INFO  2024-09-19 05:22:25,378 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 208.6701ms
+DEBUG 2024-09-19 10:24:20,495 [ndler] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2024-09-19 10:24:20,507 [ndler] Abp.Modules.AbpModuleManager             - Shutting down completed.
+INFO  2024-09-19 10:24:20,510 [ndler] Microsoft.Hosting.Lifetime               - Application is shutting down...
+DEBUG 2024-09-19 10:24:27,131 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2024-09-19 10:24:27,165 [1    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2024-09-19 10:24:27,173 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProJeliliV1.Web.Host.Startup.ProJeliliV1WebHostModule, ProJeliliV1.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:24:27,174 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProJeliliV1.ProJeliliV1WebCoreModule, ProJeliliV1.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:24:27,174 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProJeliliV1.ProJeliliV1ApplicationModule, ProJeliliV1.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:24:27,174 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProJeliliV1.ProJeliliV1CoreModule, ProJeliliV1.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:24:27,174 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:24:27,174 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:24:27,175 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:24:27,175 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:24:27,177 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProJeliliV1.EntityFrameworkCore.ProJeliliV1EntityFrameworkModule, ProJeliliV1.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:24:27,180 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:24:27,180 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:24:27,180 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:24:27,180 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:24:27,180 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:24:27,182 [1    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2024-09-19 10:24:27,223 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-19 10:24:27,223 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-19 10:24:27,223 [1    ] o.Configuration.LanguageManagementConfig - Converted ProJeliliV1 (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-19 10:24:27,223 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-19 10:24:27,444 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ProJeliliV1.EntityFrameworkCore.ProJeliliV1DbContext, ProJeliliV1.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:24:27,573 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2024-09-19 10:24:27,586 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2024-09-19 10:24:27,591 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2024-09-19 10:24:27,596 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProJeliliV1
+DEBUG 2024-09-19 10:24:27,600 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2024-09-19 10:24:27,620 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2024-09-19 10:24:27,620 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Users.Dto.CreateUserDto
+DEBUG 2024-09-19 10:24:27,624 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Users.Dto.UserDto
+DEBUG 2024-09-19 10:24:27,625 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Students.Dto.CreateStudentDto
+DEBUG 2024-09-19 10:24:27,625 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Students.Dto.StudentDto
+DEBUG 2024-09-19 10:24:27,625 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Students.Dto.UpdateStudentDto
+DEBUG 2024-09-19 10:24:27,625 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2024-09-19 10:24:27,625 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Sessions.Dto.UserLoginInfoDto
+DEBUG 2024-09-19 10:24:27,625 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Roles.Dto.PermissionDto
+DEBUG 2024-09-19 10:24:27,626 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2024-09-19 10:24:27,626 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.MultiTenancy.Dto.TenantDto
+DEBUG 2024-09-19 10:24:27,626 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Colleges.Dto.CollegeDto
+DEBUG 2024-09-19 10:24:27,626 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Colleges.Dto.CreateCollegeDto
+DEBUG 2024-09-19 10:24:27,626 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Colleges.Dto.UpdateCollegeDto
+INFO  2024-09-19 10:24:29,028 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name"
+FROM "AbpEditions" AS a
+WHERE a."Name" = 'Standard'
+LIMIT 1
+INFO  2024-09-19 10:24:29,136 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (12ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:24:29,142 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:24:29,143 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:24:29,144 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:24:29,145 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:24:29,146 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:24:29,147 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:24:29,148 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:24:29,149 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:24:29,151 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:24:29,153 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:24:29,154 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:24:29,156 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:24:29,169 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE a."TenantId" IS NULL AND a."Name" = 'Admin'
+LIMIT 1
+INFO  2024-09-19 10:24:29,205 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@__adminRoleForHost_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Name"
+FROM "AbpPermissions" AS a
+WHERE a."Discriminator" = 'RolePermissionSetting' AND a."TenantId" IS NULL AND a."RoleId" = @__adminRoleForHost_Id_0
+INFO  2024-09-19 10:24:29,220 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE a."TenantId" IS NULL AND a."UserName" = 'admin'
+LIMIT 1
+INFO  2024-09-19 10:24:29,270 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__name_0='?', @__tenantId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE a."Name" = @__name_0 AND a."TenantId" = @__tenantId_1 AND a."UserId" IS NULL)
+INFO  2024-09-19 10:24:29,272 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__name_0='?', @__tenantId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE a."Name" = @__name_0 AND a."TenantId" = @__tenantId_1 AND a."UserId" IS NULL)
+INFO  2024-09-19 10:24:29,273 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__name_0='?', @__tenantId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE a."Name" = @__name_0 AND a."TenantId" = @__tenantId_1 AND a."UserId" IS NULL)
+INFO  2024-09-19 10:24:29,350 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConnectionString", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EditionId", a."IsActive", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenancyName"
+FROM "AbpTenants" AS a
+WHERE a."TenancyName" = 'Default'
+LIMIT 1
+INFO  2024-09-19 10:24:29,369 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE a."TenantId" = @___tenantId_0 AND a."Name" = 'Admin'
+LIMIT 1
+INFO  2024-09-19 10:24:29,371 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@___tenantId_0='?' (DbType = Int32), @__adminRole_Id_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Name"
+FROM "AbpPermissions" AS a
+WHERE a."Discriminator" = 'RolePermissionSetting' AND a."TenantId" = @___tenantId_0 AND a."RoleId" = @__adminRole_Id_1
+INFO  2024-09-19 10:24:29,376 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE a."TenantId" = @___tenantId_0 AND a."UserName" = 'admin'
+LIMIT 1
+INFO  2024-09-19 10:24:29,435 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."Icon", a."IsDeleted", a."IsDisabled", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId"
+FROM "AbpLanguages" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR a."TenantId" IS NULL)
+INFO  2024-09-19 10:24:29,474 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConnectionString", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EditionId", a."IsActive", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenancyName"
+FROM "AbpTenants" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND a."Id" = @__p_0
+LIMIT 1
+INFO  2024-09-19 10:24:29,481 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."Icon", a."IsDeleted", a."IsDisabled", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId"
+FROM "AbpLanguages" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR a."TenantId" = @__ef_filter__CurrentTenantId_2)
+INFO  2024-09-19 10:24:29,511 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_1='?' (DbType = Int32), @__tenantId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId", a."UserId", a."Value"
+FROM "AbpSettings" AS a
+WHERE (@__ef_filter__p_0 OR a."TenantId" = @__ef_filter__CurrentTenantId_1) AND a."UserId" IS NULL AND a."TenantId" = @__tenantId_1
+INFO  2024-09-19 10:24:29,532 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+WARN  2024-09-19 10:24:29,990 [1    ] etCore.Server.Kestrel.Core.KestrelServer - The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+WARN  2024-09-19 10:24:29,991 [1    ] Microsoft.AspNetCore.Server.Kestrel      - Overriding address(es) 'https://localhost:44311/'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+INFO  2024-09-19 10:24:30,000 [1    ] Microsoft.Hosting.Lifetime               - Now listening on: https://localhost:44311
+INFO  2024-09-19 10:24:30,000 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2024-09-19 10:24:30,000 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2024-09-19 10:24:30,000 [1    ] Microsoft.Hosting.Lifetime               - Content root path: /Users/abduljeliliumaru/Desktop/Wimtach/ProJeliliV1/ProJeliliV1/src/ProJeliliV1.Web.Host
+INFO  2024-09-19 10:24:30,543 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - - -
+INFO  2024-09-19 10:24:30,709 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ProJeliliV1.Web.Host.Controllers.HomeController.Index (ProJeliliV1.Web.Host)'
+INFO  2024-09-19 10:24:30,763 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProJeliliV1.Web.Host.Controllers.HomeController (ProJeliliV1.Web.Host).
+INFO  2024-09-19 10:24:30,795 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method ProJeliliV1.Web.Host.Controllers.HomeController.Index (ProJeliliV1.Web.Host) - Validation state: Valid
+INFO  2024-09-19 10:24:30,799 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method ProJeliliV1.Web.Host.Controllers.HomeController.Index (ProJeliliV1.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.1251ms.
+INFO  2024-09-19 10:24:30,948 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpAuditLogs" ("BrowserInfo", "ClientIpAddress", "ClientName", "CustomData", "Exception", "ExceptionMessage", "ExecutionDuration", "ExecutionTime", "ImpersonatorTenantId", "ImpersonatorUserId", "MethodName", "Parameters", "ReturnValue", "ServiceName", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+INFO  2024-09-19 10:24:30,997 [17   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2024-09-19 10:24:31,005 [17   ] c.Infrastructure.ControllerActionInvoker - Executed action ProJeliliV1.Web.Host.Controllers.HomeController.Index (ProJeliliV1.Web.Host) in 235.7804ms
+INFO  2024-09-19 10:24:31,006 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ProJeliliV1.Web.Host.Controllers.HomeController.Index (ProJeliliV1.Web.Host)'
+INFO  2024-09-19 10:24:31,013 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - 302 0 - 470.2618ms
+INFO  2024-09-19 10:24:31,018 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger - - -
+INFO  2024-09-19 10:24:31,042 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger - 301 0 - 24.3138ms
+INFO  2024-09-19 10:24:31,046 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+INFO  2024-09-19 10:24:31,090 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 43.8308ms
+INFO  2024-09-19 10:24:31,109 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui.css - - -
+INFO  2024-09-19 10:24:31,110 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui-bundle.js - - -
+INFO  2024-09-19 10:24:31,110 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - - -
+INFO  2024-09-19 10:24:31,110 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - - -
+INFO  2024-09-19 10:24:31,110 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui-standalone-preset.js - - -
+INFO  2024-09-19 10:24:31,119 [22   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2024-09-19 10:24:31,119 [24   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: '/Users/abduljeliliumaru/Desktop/Wimtach/ProJeliliV1/ProJeliliV1/src/ProJeliliV1.Web.Host/wwwroot/swagger/ui/abp.js'
+INFO  2024-09-19 10:24:31,119 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: '/Users/abduljeliliumaru/Desktop/Wimtach/ProJeliliV1/ProJeliliV1/src/ProJeliliV1.Web.Host/wwwroot/swagger/ui/abp.swagger.js'
+INFO  2024-09-19 10:24:31,119 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2024-09-19 10:24:31,119 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - 200 3697 text/javascript 9.5385ms
+INFO  2024-09-19 10:24:31,119 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - 200 8029 text/javascript 9.6114ms
+INFO  2024-09-19 10:24:31,119 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui-standalone-preset.js - 200 230293 text/javascript 9.5705ms
+INFO  2024-09-19 10:24:31,119 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui.css - 200 152034 text/css 9.7914ms
+INFO  2024-09-19 10:24:31,130 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2024-09-19 10:24:31,130 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui-bundle.js - 200 1452753 text/javascript 20.6603ms
+INFO  2024-09-19 10:24:31,317 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2024-09-19 10:24:31,318 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ProJeliliV1.Web.Host.Controllers.AntiForgeryController.SetCookie (ProJeliliV1.Web.Host)'
+INFO  2024-09-19 10:24:31,326 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller ProJeliliV1.Web.Host.Controllers.AntiForgeryController (ProJeliliV1.Web.Host).
+INFO  2024-09-19 10:24:31,327 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method ProJeliliV1.Web.Host.Controllers.AntiForgeryController.SetCookie (ProJeliliV1.Web.Host) - Validation state: Valid
+INFO  2024-09-19 10:24:31,330 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method ProJeliliV1.Web.Host.Controllers.AntiForgeryController.SetCookie (ProJeliliV1.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 2.6341ms.
+INFO  2024-09-19 10:24:31,337 [15   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpAuditLogs" ("BrowserInfo", "ClientIpAddress", "ClientName", "CustomData", "Exception", "ExceptionMessage", "ExecutionDuration", "ExecutionTime", "ImpersonatorTenantId", "ImpersonatorUserId", "MethodName", "Parameters", "ReturnValue", "ServiceName", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+INFO  2024-09-19 10:24:31,340 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2024-09-19 10:24:31,346 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-09-19 10:24:31,367 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action ProJeliliV1.Web.Host.Controllers.AntiForgeryController.SetCookie (ProJeliliV1.Web.Host) in 41.4166ms
+INFO  2024-09-19 10:24:31,367 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ProJeliliV1.Web.Host.Controllers.AntiForgeryController.SetCookie (ProJeliliV1.Web.Host)'
+INFO  2024-09-19 10:24:31,367 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 50.4608ms
+INFO  2024-09-19 10:24:31,454 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 114.8881ms
+INFO  2024-09-19 10:26:04,382 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/College/GetAll - - -
+INFO  2024-09-19 10:26:04,397 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ProJeliliV1.Colleges.CollegeAppService.GetAllAsync (ProJeliliV1.Application)'
+INFO  2024-09-19 10:26:04,416 [27   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "College"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[ProJeliliV1.Colleges.Dto.CollegeDto]] GetAllAsync(ProJeliliV1.Colleges.Dto.PagedCollegeResultRequestDto) on controller ProJeliliV1.Colleges.CollegeAppService (ProJeliliV1.Application).
+ERROR 2024-09-19 10:26:04,422 [27   ] Mvc.ExceptionHandling.AbpExceptionFilter - Can't create component 'ProJeliliV1.Colleges.CollegeAppService' as it has dependencies to be satisfied.
+
+'ProJeliliV1.Colleges.CollegeAppService' is waiting for the following dependencies:
+- Service 'Abp.Domain.Repositories.IRepository`2[[ProJeliliV1.Models.College, ProJeliliV1.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' which was not registered.
+
+Castle.MicroKernel.Handlers.HandlerException: Can't create component 'ProJeliliV1.Colleges.CollegeAppService' as it has dependencies to be satisfied.
+
+'ProJeliliV1.Colleges.CollegeAppService' is waiting for the following dependencies:
+- Service 'Abp.Domain.Repositories.IRepository`2[[ProJeliliV1.Models.College, ProJeliliV1.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' which was not registered.
+
+   at Castle.MicroKernel.Handlers.DefaultHandler.AssertNotWaitingForDependency()
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, Arguments arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, Arguments arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.ResolveInstanceOrNull(Type serviceType, Boolean isOptional)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetServiceInternal(Type serviceType, Boolean isOptional)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2024-09-19 10:26:04,479 [27   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (18ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_1='?' (DbType = Int32), @___sourceName_0='?', @__CultureInfo_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."Key", a."LanguageName", a."LastModificationTime", a."LastModifierUserId", a."Source", a."TenantId", a."Value"
+FROM "AbpLanguageTexts" AS a
+WHERE (@__ef_filter__p_0 OR a."TenantId" = @__ef_filter__CurrentTenantId_1) AND a."Source" = @___sourceName_0 AND a."LanguageName" = @__CultureInfo_Name_1
+INFO  2024-09-19 10:26:04,498 [27   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @___sourceName_0='?', @__CultureInfo_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."Key", a."LanguageName", a."LastModificationTime", a."LastModifierUserId", a."Source", a."TenantId", a."Value"
+FROM "AbpLanguageTexts" AS a
+WHERE (@__ef_filter__p_0 OR a."TenantId" IS NULL) AND a."Source" = @___sourceName_0 AND a."LanguageName" = @__CultureInfo_Name_1
+INFO  2024-09-19 10:26:04,500 [27   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-09-19 10:26:04,501 [27   ] c.Infrastructure.ControllerActionInvoker - Executed action ProJeliliV1.Colleges.CollegeAppService.GetAllAsync (ProJeliliV1.Application) in 85.1851ms
+INFO  2024-09-19 10:26:04,501 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ProJeliliV1.Colleges.CollegeAppService.GetAllAsync (ProJeliliV1.Application)'
+INFO  2024-09-19 10:26:04,502 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/College/GetAll - 500 - application/json;+charset=utf-8 120.2047ms
+INFO  2024-09-19 10:26:51,217 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/College/GetAll - - -
+INFO  2024-09-19 10:26:51,233 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ProJeliliV1.Colleges.CollegeAppService.GetAllAsync (ProJeliliV1.Application)'
+INFO  2024-09-19 10:26:51,242 [29   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "College"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[ProJeliliV1.Colleges.Dto.CollegeDto]] GetAllAsync(ProJeliliV1.Colleges.Dto.PagedCollegeResultRequestDto) on controller ProJeliliV1.Colleges.CollegeAppService (ProJeliliV1.Application).
+ERROR 2024-09-19 10:26:51,244 [29   ] Mvc.ExceptionHandling.AbpExceptionFilter - Can't create component 'ProJeliliV1.Colleges.CollegeAppService' as it has dependencies to be satisfied.
+
+'ProJeliliV1.Colleges.CollegeAppService' is waiting for the following dependencies:
+- Service 'Abp.Domain.Repositories.IRepository`2[[ProJeliliV1.Models.College, ProJeliliV1.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' which was not registered.
+
+Castle.MicroKernel.Handlers.HandlerException: Can't create component 'ProJeliliV1.Colleges.CollegeAppService' as it has dependencies to be satisfied.
+
+'ProJeliliV1.Colleges.CollegeAppService' is waiting for the following dependencies:
+- Service 'Abp.Domain.Repositories.IRepository`2[[ProJeliliV1.Models.College, ProJeliliV1.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' which was not registered.
+
+   at Castle.MicroKernel.Handlers.DefaultHandler.AssertNotWaitingForDependency()
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetServiceInternal(Type serviceType, Boolean isOptional)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2024-09-19 10:26:51,246 [29   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-09-19 10:26:51,247 [29   ] c.Infrastructure.ControllerActionInvoker - Executed action ProJeliliV1.Colleges.CollegeAppService.GetAllAsync (ProJeliliV1.Application) in 3.9132ms
+INFO  2024-09-19 10:26:51,247 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ProJeliliV1.Colleges.CollegeAppService.GetAllAsync (ProJeliliV1.Application)'
+INFO  2024-09-19 10:26:51,247 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/College/GetAll - 500 - application/json;+charset=utf-8 31.6750ms
+DEBUG 2024-09-19 10:29:03,281 [ndler] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2024-09-19 10:29:03,287 [ndler] Abp.Modules.AbpModuleManager             - Shutting down completed.
+INFO  2024-09-19 10:29:03,289 [ndler] Microsoft.Hosting.Lifetime               - Application is shutting down...
+DEBUG 2024-09-19 10:29:06,206 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2024-09-19 10:29:06,219 [1    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2024-09-19 10:29:06,227 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProJeliliV1.Web.Host.Startup.ProJeliliV1WebHostModule, ProJeliliV1.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:29:06,228 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProJeliliV1.ProJeliliV1WebCoreModule, ProJeliliV1.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:29:06,228 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProJeliliV1.ProJeliliV1ApplicationModule, ProJeliliV1.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:29:06,228 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProJeliliV1.ProJeliliV1CoreModule, ProJeliliV1.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:29:06,228 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:29:06,228 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:29:06,228 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:29:06,229 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:29:06,229 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProJeliliV1.EntityFrameworkCore.ProJeliliV1EntityFrameworkModule, ProJeliliV1.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:29:06,229 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:29:06,230 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:29:06,230 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:29:06,230 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:29:06,230 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:29:06,231 [1    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2024-09-19 10:29:06,253 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-19 10:29:06,253 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-19 10:29:06,253 [1    ] o.Configuration.LanguageManagementConfig - Converted ProJeliliV1 (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-19 10:29:06,253 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-19 10:29:06,437 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ProJeliliV1.EntityFrameworkCore.ProJeliliV1DbContext, ProJeliliV1.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 10:29:06,559 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2024-09-19 10:29:06,569 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2024-09-19 10:29:06,576 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2024-09-19 10:29:06,580 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProJeliliV1
+DEBUG 2024-09-19 10:29:06,583 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2024-09-19 10:29:06,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2024-09-19 10:29:06,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Users.Dto.CreateUserDto
+DEBUG 2024-09-19 10:29:06,603 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Users.Dto.UserDto
+DEBUG 2024-09-19 10:29:06,604 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Students.Dto.CreateStudentDto
+DEBUG 2024-09-19 10:29:06,604 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Students.Dto.StudentDto
+DEBUG 2024-09-19 10:29:06,604 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Students.Dto.UpdateStudentDto
+DEBUG 2024-09-19 10:29:06,604 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2024-09-19 10:29:06,604 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Sessions.Dto.UserLoginInfoDto
+DEBUG 2024-09-19 10:29:06,604 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Roles.Dto.PermissionDto
+DEBUG 2024-09-19 10:29:06,604 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2024-09-19 10:29:06,604 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.MultiTenancy.Dto.TenantDto
+DEBUG 2024-09-19 10:29:06,604 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Colleges.Dto.CollegeDto
+DEBUG 2024-09-19 10:29:06,604 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Colleges.Dto.CreateCollegeDto
+DEBUG 2024-09-19 10:29:06,604 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ProJeliliV1.Colleges.Dto.UpdateCollegeDto
+INFO  2024-09-19 10:29:07,918 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (21ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name"
+FROM "AbpEditions" AS a
+WHERE a."Name" = 'Standard'
+LIMIT 1
+INFO  2024-09-19 10:29:08,026 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (11ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:29:08,031 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:29:08,032 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:29:08,033 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:29:08,034 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:29:08,035 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:29:08,037 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:29:08,038 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:29:08,039 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:29:08,041 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:29:08,042 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:29:08,043 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:29:08,044 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" = @__language_TenantId_0 AND a."Name" = @__language_Name_1)
+INFO  2024-09-19 10:29:08,055 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE a."TenantId" IS NULL AND a."Name" = 'Admin'
+LIMIT 1
+INFO  2024-09-19 10:29:08,092 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__adminRoleForHost_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Name"
+FROM "AbpPermissions" AS a
+WHERE a."Discriminator" = 'RolePermissionSetting' AND a."TenantId" IS NULL AND a."RoleId" = @__adminRoleForHost_Id_0
+INFO  2024-09-19 10:29:08,107 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE a."TenantId" IS NULL AND a."UserName" = 'admin'
+LIMIT 1
+INFO  2024-09-19 10:29:08,160 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__name_0='?', @__tenantId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE a."Name" = @__name_0 AND a."TenantId" = @__tenantId_1 AND a."UserId" IS NULL)
+INFO  2024-09-19 10:29:08,162 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__name_0='?', @__tenantId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE a."Name" = @__name_0 AND a."TenantId" = @__tenantId_1 AND a."UserId" IS NULL)
+INFO  2024-09-19 10:29:08,163 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__name_0='?', @__tenantId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE a."Name" = @__name_0 AND a."TenantId" = @__tenantId_1 AND a."UserId" IS NULL)
+INFO  2024-09-19 10:29:08,222 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConnectionString", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EditionId", a."IsActive", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenancyName"
+FROM "AbpTenants" AS a
+WHERE a."TenancyName" = 'Default'
+LIMIT 1
+INFO  2024-09-19 10:29:08,243 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE a."TenantId" = @___tenantId_0 AND a."Name" = 'Admin'
+LIMIT 1
+INFO  2024-09-19 10:29:08,248 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@___tenantId_0='?' (DbType = Int32), @__adminRole_Id_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Name"
+FROM "AbpPermissions" AS a
+WHERE a."Discriminator" = 'RolePermissionSetting' AND a."TenantId" = @___tenantId_0 AND a."RoleId" = @__adminRole_Id_1
+INFO  2024-09-19 10:29:08,254 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE a."TenantId" = @___tenantId_0 AND a."UserName" = 'admin'
+LIMIT 1
+INFO  2024-09-19 10:29:08,324 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."Icon", a."IsDeleted", a."IsDisabled", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId"
+FROM "AbpLanguages" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR a."TenantId" IS NULL)
+INFO  2024-09-19 10:29:08,385 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConnectionString", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EditionId", a."IsActive", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenancyName"
+FROM "AbpTenants" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND a."Id" = @__p_0
+LIMIT 1
+INFO  2024-09-19 10:29:08,397 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."Icon", a."IsDeleted", a."IsDisabled", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId"
+FROM "AbpLanguages" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR a."TenantId" = @__ef_filter__CurrentTenantId_2)
+INFO  2024-09-19 10:29:08,458 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_1='?' (DbType = Int32), @__tenantId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId", a."UserId", a."Value"
+FROM "AbpSettings" AS a
+WHERE (@__ef_filter__p_0 OR a."TenantId" = @__ef_filter__CurrentTenantId_1) AND a."UserId" IS NULL AND a."TenantId" = @__tenantId_1
+INFO  2024-09-19 10:29:08,489 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+WARN  2024-09-19 10:29:08,912 [1    ] etCore.Server.Kestrel.Core.KestrelServer - The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+WARN  2024-09-19 10:29:08,913 [1    ] Microsoft.AspNetCore.Server.Kestrel      - Overriding address(es) 'https://localhost:44311/'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+INFO  2024-09-19 10:29:08,921 [1    ] Microsoft.Hosting.Lifetime               - Now listening on: https://localhost:44311
+INFO  2024-09-19 10:29:08,921 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2024-09-19 10:29:08,922 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2024-09-19 10:29:08,922 [1    ] Microsoft.Hosting.Lifetime               - Content root path: /Users/abduljeliliumaru/Desktop/Wimtach/ProJeliliV1/ProJeliliV1/src/ProJeliliV1.Web.Host
+INFO  2024-09-19 10:29:09,620 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - - -
+INFO  2024-09-19 10:29:09,759 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ProJeliliV1.Web.Host.Controllers.HomeController.Index (ProJeliliV1.Web.Host)'
+INFO  2024-09-19 10:29:09,812 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProJeliliV1.Web.Host.Controllers.HomeController (ProJeliliV1.Web.Host).
+INFO  2024-09-19 10:29:09,844 [7    ] c.Infrastructure.ControllerActionInvoker - Executing action method ProJeliliV1.Web.Host.Controllers.HomeController.Index (ProJeliliV1.Web.Host) - Validation state: Valid
+INFO  2024-09-19 10:29:09,849 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action method ProJeliliV1.Web.Host.Controllers.HomeController.Index (ProJeliliV1.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.1408ms.
+INFO  2024-09-19 10:29:10,017 [7    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (33ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpAuditLogs" ("BrowserInfo", "ClientIpAddress", "ClientName", "CustomData", "Exception", "ExceptionMessage", "ExecutionDuration", "ExecutionTime", "ImpersonatorTenantId", "ImpersonatorUserId", "MethodName", "Parameters", "ReturnValue", "ServiceName", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+INFO  2024-09-19 10:29:10,064 [4    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2024-09-19 10:29:10,072 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action ProJeliliV1.Web.Host.Controllers.HomeController.Index (ProJeliliV1.Web.Host) in 254.0593ms
+INFO  2024-09-19 10:29:10,073 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ProJeliliV1.Web.Host.Controllers.HomeController.Index (ProJeliliV1.Web.Host)'
+INFO  2024-09-19 10:29:10,080 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - 302 0 - 460.0497ms
+INFO  2024-09-19 10:29:10,086 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger - - -
+INFO  2024-09-19 10:29:10,112 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger - 301 0 - 25.6992ms
+INFO  2024-09-19 10:29:10,115 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+INFO  2024-09-19 10:29:10,163 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 47.5263ms
+INFO  2024-09-19 10:29:10,183 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui.css - - -
+INFO  2024-09-19 10:29:10,183 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - - -
+INFO  2024-09-19 10:29:10,183 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui-bundle.js - - -
+INFO  2024-09-19 10:29:10,183 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui-standalone-preset.js - - -
+INFO  2024-09-19 10:29:10,184 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - - -
+INFO  2024-09-19 10:29:10,199 [23   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: '/Users/abduljeliliumaru/Desktop/Wimtach/ProJeliliV1/ProJeliliV1/src/ProJeliliV1.Web.Host/wwwroot/swagger/ui/abp.js'
+INFO  2024-09-19 10:29:10,199 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2024-09-19 10:29:10,199 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2024-09-19 10:29:10,199 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: '/Users/abduljeliliumaru/Desktop/Wimtach/ProJeliliV1/ProJeliliV1/src/ProJeliliV1.Web.Host/wwwroot/swagger/ui/abp.swagger.js'
+INFO  2024-09-19 10:29:10,200 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui-standalone-preset.js - 200 230293 text/javascript 16.2960ms
+INFO  2024-09-19 10:29:10,200 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui.css - 200 152034 text/css 16.5079ms
+INFO  2024-09-19 10:29:10,199 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - 200 3697 text/javascript 15.9367ms
+INFO  2024-09-19 10:29:10,200 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - 200 8029 text/javascript 15.7024ms
+INFO  2024-09-19 10:29:10,204 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2024-09-19 10:29:10,204 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui-bundle.js - 200 1452753 text/javascript 20.9586ms
+INFO  2024-09-19 10:29:10,378 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2024-09-19 10:29:10,379 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ProJeliliV1.Web.Host.Controllers.AntiForgeryController.SetCookie (ProJeliliV1.Web.Host)'
+INFO  2024-09-19 10:29:10,386 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller ProJeliliV1.Web.Host.Controllers.AntiForgeryController (ProJeliliV1.Web.Host).
+INFO  2024-09-19 10:29:10,388 [7    ] c.Infrastructure.ControllerActionInvoker - Executing action method ProJeliliV1.Web.Host.Controllers.AntiForgeryController.SetCookie (ProJeliliV1.Web.Host) - Validation state: Valid
+INFO  2024-09-19 10:29:10,390 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action method ProJeliliV1.Web.Host.Controllers.AntiForgeryController.SetCookie (ProJeliliV1.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 2.521ms.
+INFO  2024-09-19 10:29:10,400 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2024-09-19 10:29:10,402 [7    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpAuditLogs" ("BrowserInfo", "ClientIpAddress", "ClientName", "CustomData", "Exception", "ExceptionMessage", "ExecutionDuration", "ExecutionTime", "ImpersonatorTenantId", "ImpersonatorUserId", "MethodName", "Parameters", "ReturnValue", "ServiceName", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+INFO  2024-09-19 10:29:10,413 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-09-19 10:29:10,447 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action ProJeliliV1.Web.Host.Controllers.AntiForgeryController.SetCookie (ProJeliliV1.Web.Host) in 60.5793ms
+INFO  2024-09-19 10:29:10,447 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ProJeliliV1.Web.Host.Controllers.AntiForgeryController.SetCookie (ProJeliliV1.Web.Host)'
+INFO  2024-09-19 10:29:10,447 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 69.6307ms
+INFO  2024-09-19 10:29:10,522 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 121.7044ms
+INFO  2024-09-19 10:29:30,292 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/Student/GetAll - - -
+INFO  2024-09-19 10:29:30,303 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ProJeliliV1.Students.StudentAppService.GetAllAsync (ProJeliliV1.Application)'
+INFO  2024-09-19 10:29:30,340 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[ProJeliliV1.Students.Dto.StudentDto]] GetAllAsync(ProJeliliV1.Students.Dto.PagedStudentResultRequestDto) on controller ProJeliliV1.Students.StudentAppService (ProJeliliV1.Application).
+INFO  2024-09-19 10:29:30,476 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method ProJeliliV1.Students.StudentAppService.GetAllAsync (ProJeliliV1.Application) - Validation state: Valid
+INFO  2024-09-19 10:29:30,508 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (12ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_1='?' (DbType = Int32), @___sourceName_0='?', @__CultureInfo_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."Key", a."LanguageName", a."LastModificationTime", a."LastModifierUserId", a."Source", a."TenantId", a."Value"
+FROM "AbpLanguageTexts" AS a
+WHERE (@__ef_filter__p_0 OR a."TenantId" = @__ef_filter__CurrentTenantId_1) AND a."Source" = @___sourceName_0 AND a."LanguageName" = @__CultureInfo_Name_1
+INFO  2024-09-19 10:29:30,514 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @___sourceName_0='?', @__CultureInfo_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."Key", a."LanguageName", a."LastModificationTime", a."LastModifierUserId", a."Source", a."TenantId", a."Value"
+FROM "AbpLanguageTexts" AS a
+WHERE (@__ef_filter__p_0 OR a."TenantId" IS NULL) AND a."Source" = @___sourceName_0 AND a."LanguageName" = @__CultureInfo_Name_1
+INFO  2024-09-19 10:29:30,542 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpAuditLogs" ("BrowserInfo", "ClientIpAddress", "ClientName", "CustomData", "Exception", "ExceptionMessage", "ExecutionDuration", "ExecutionTime", "ImpersonatorTenantId", "ImpersonatorUserId", "MethodName", "Parameters", "ReturnValue", "ServiceName", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+WARN  2024-09-19 10:29:30,550 [4    ] Mvc.ExceptionHandling.AbpExceptionFilter - Current user did not login to the application!
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at lambda_method1678(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2024-09-19 10:29:30,555 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-09-19 10:29:30,556 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action ProJeliliV1.Students.StudentAppService.GetAllAsync (ProJeliliV1.Application) in 215.9562ms
+INFO  2024-09-19 10:29:30,556 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ProJeliliV1.Students.StudentAppService.GetAllAsync (ProJeliliV1.Application)'
+INFO  2024-09-19 10:29:30,556 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/Student/GetAll - 401 - application/json;+charset=utf-8 264.2504ms
+INFO  2024-09-19 10:30:37,651 [3    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate - application/json 56
+INFO  2024-09-19 10:30:37,656 [3    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2024-09-19 10:30:37,657 [3    ] pNetCore.Cors.Infrastructure.CorsService - Request origin https://localhost:44311 does not have permission to access the resource.
+INFO  2024-09-19 10:30:37,663 [3    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ProJeliliV1.Controllers.TokenAuthController.Authenticate (ProJeliliV1.Web.Core)'
+INFO  2024-09-19 10:30:37,679 [3    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[ProJeliliV1.Models.TokenAuth.AuthenticateResultModel] Authenticate(ProJeliliV1.Models.TokenAuth.AuthenticateModel) on controller ProJeliliV1.Controllers.TokenAuthController (ProJeliliV1.Web.Core).
+INFO  2024-09-19 10:30:37,735 [3    ] c.Infrastructure.ControllerActionInvoker - Executing action method ProJeliliV1.Controllers.TokenAuthController.Authenticate (ProJeliliV1.Web.Core) - Validation state: Valid
+INFO  2024-09-19 10:30:37,774 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConnectionString", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EditionId", a."IsActive", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenancyName"
+FROM "AbpTenants" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND a."TenancyName" = 'Default'
+LIMIT 1
+INFO  2024-09-19 10:30:37,851 [3    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_2='?' (DbType = Int32), @__normalizedUserNameOrEmailAddress_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR a."TenantId" = @__ef_filter__CurrentTenantId_2) AND (a."NormalizedUserName" = @__normalizedUserNameOrEmailAddress_0 OR a."NormalizedEmailAddress" = @__normalizedUserNameOrEmailAddress_0)
+LIMIT 1
+INFO  2024-09-19 10:30:37,961 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (11ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_2='?' (DbType = Int32), @__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR a."TenantId" = @__ef_filter__CurrentTenantId_2) AND a."Id" = @__p_0
+LIMIT 1
+INFO  2024-09-19 10:30:37,978 [27   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_2='?' (DbType = Int32), @__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR a."TenantId" = @__ef_filter__CurrentTenantId_2) AND a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+INFO  2024-09-19 10:30:37,994 [27   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p2='?' (DbType = Int64), @p0='?' (DbType = Int32), @p3='?', @p1='?' (DbType = DateTime)], CommandType='Text', CommandTimeout='30']
+UPDATE "AbpUsers" SET "AccessFailedCount" = @p0, "LastModificationTime" = @p1
+WHERE "Id" = @p2 AND "ConcurrencyStamp" = @p3;
+INFO  2024-09-19 10:30:38,009 [27   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__eventData_Entity_TenantId_0='?' (DbType = Int32), @__eventData_Entity_Id_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."TenantId", a."UserId", a."UserLinkId", a."UserName"
+FROM "AbpUserAccounts" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND a."TenantId" = @__eventData_Entity_TenantId_0 AND a."UserId" = @__eventData_Entity_Id_1
+LIMIT 1
+INFO  2024-09-19 10:30:38,038 [27   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p12='?' (DbType = Int64), @p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime), @p7='?' (DbType = Int64), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (DbType = Int64), @p11='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "AbpUserAccounts" SET "CreationTime" = @p0, "CreatorUserId" = @p1, "DeleterUserId" = @p2, "DeletionTime" = @p3, "EmailAddress" = @p4, "IsDeleted" = @p5, "LastModificationTime" = @p6, "LastModifierUserId" = @p7, "TenantId" = @p8, "UserId" = @p9, "UserLinkId" = @p10, "UserName" = @p11
+WHERE "Id" = @p12;
+INFO  2024-09-19 10:30:38,060 [27   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p28='?' (DbType = Int64), @p0='?' (DbType = Int32), @p1='?', @p2='?', @p29='?', @p3='?' (DbType = DateTime), @p4='?' (DbType = Int64), @p5='?' (DbType = Int64), @p6='?' (DbType = DateTime), @p7='?', @p8='?', @p9='?' (DbType = Boolean), @p10='?' (DbType = Boolean), @p11='?' (DbType = Boolean), @p12='?' (DbType = Boolean), @p13='?' (DbType = Boolean), @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTime), @p16='?' (DbType = Int64), @p17='?' (DbType = DateTime), @p18='?', @p19='?', @p20='?', @p21='?', @p22='?', @p23='?', @p24='?', @p25='?', @p26='?' (DbType = Int32), @p27='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "AbpUsers" SET "AccessFailedCount" = @p0, "AuthenticationSource" = @p1, "ConcurrencyStamp" = @p2, "CreationTime" = @p3, "CreatorUserId" = @p4, "DeleterUserId" = @p5, "DeletionTime" = @p6, "EmailAddress" = @p7, "EmailConfirmationCode" = @p8, "IsActive" = @p9, "IsDeleted" = @p10, "IsEmailConfirmed" = @p11, "IsLockoutEnabled" = @p12, "IsPhoneNumberConfirmed" = @p13, "IsTwoFactorEnabled" = @p14, "LastModificationTime" = @p15, "LastModifierUserId" = @p16, "LockoutEndDateUtc" = @p17, "Name" = @p18, "NormalizedEmailAddress" = @p19, "NormalizedUserName" = @p20, "Password" = @p21, "PasswordResetCode" = @p22, "PhoneNumber" = @p23, "SecurityStamp" = @p24, "Surname" = @p25, "TenantId" = @p26, "UserName" = @p27
+WHERE "Id" = @p28 AND "ConcurrencyStamp" = @p29;
+INFO  2024-09-19 10:30:38,064 [27   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__eventData_Entity_TenantId_0='?' (DbType = Int32), @__eventData_Entity_Id_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."TenantId", a."UserId", a."UserLinkId", a."UserName"
+FROM "AbpUserAccounts" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND a."TenantId" = @__eventData_Entity_TenantId_0 AND a."UserId" = @__eventData_Entity_Id_1
+LIMIT 1
+INFO  2024-09-19 10:30:38,067 [27   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p12='?' (DbType = Int64), @p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime), @p7='?' (DbType = Int64), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (DbType = Int64), @p11='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "AbpUserAccounts" SET "CreationTime" = @p0, "CreatorUserId" = @p1, "DeleterUserId" = @p2, "DeletionTime" = @p3, "EmailAddress" = @p4, "IsDeleted" = @p5, "LastModificationTime" = @p6, "LastModifierUserId" = @p7, "TenantId" = @p8, "UserId" = @p9, "UserLinkId" = @p10, "UserName" = @p11
+WHERE "Id" = @p12;
+INFO  2024-09-19 10:30:38,132 [3    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int16), @p6='?', @p7='?' (DbType = Int32), @p8='?' (DbType = Int64), @p9='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpUserLoginAttempts" ("BrowserInfo", "ClientIpAddress", "ClientName", "CreationTime", "FailReason", "Result", "TenancyName", "TenantId", "UserId", "UserNameOrEmailAddress")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9)
+RETURNING "Id";
+INFO  2024-09-19 10:30:38,143 [3    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_1='?' (DbType = Int32), @___sourceName_0='?', @__CultureInfo_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."Key", a."LanguageName", a."LastModificationTime", a."LastModifierUserId", a."Source", a."TenantId", a."Value"
+FROM "AbpLanguageTexts" AS a
+WHERE (@__ef_filter__p_0 OR a."TenantId" = @__ef_filter__CurrentTenantId_1) AND a."Source" = @___sourceName_0 AND a."LanguageName" = @__CultureInfo_Name_1
+INFO  2024-09-19 10:30:38,145 [3    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @___sourceName_0='?', @__CultureInfo_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."Key", a."LanguageName", a."LastModificationTime", a."LastModifierUserId", a."Source", a."TenantId", a."Value"
+FROM "AbpLanguageTexts" AS a
+WHERE (@__ef_filter__p_0 OR a."TenantId" IS NULL) AND a."Source" = @___sourceName_0 AND a."LanguageName" = @__CultureInfo_Name_1
+INFO  2024-09-19 10:30:38,161 [3    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpAuditLogs" ("BrowserInfo", "ClientIpAddress", "ClientName", "CustomData", "Exception", "ExceptionMessage", "ExecutionDuration", "ExecutionTime", "ImpersonatorTenantId", "ImpersonatorUserId", "MethodName", "Parameters", "ReturnValue", "ServiceName", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+WARN  2024-09-19 10:30:38,164 [27   ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at ProJeliliV1.Controllers.TokenAuthController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in /Users/abduljeliliumaru/Desktop/Wimtach/ProJeliliV1/ProJeliliV1/src/ProJeliliV1.Web.Core/Controllers/TokenAuthController.cs:line 79
+   at ProJeliliV1.Controllers.TokenAuthController.Authenticate(AuthenticateModel model) in /Users/abduljeliliumaru/Desktop/Wimtach/ProJeliliV1/ProJeliliV1/src/ProJeliliV1.Web.Core/Controllers/TokenAuthController.cs:line 43
+   at lambda_method1702(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2024-09-19 10:30:38,166 [27   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-09-19 10:30:38,166 [27   ] c.Infrastructure.ControllerActionInvoker - Executed action ProJeliliV1.Controllers.TokenAuthController.Authenticate (ProJeliliV1.Web.Core) in 486.9642ms
+INFO  2024-09-19 10:30:38,166 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ProJeliliV1.Controllers.TokenAuthController.Authenticate (ProJeliliV1.Web.Core)'
+INFO  2024-09-19 10:30:38,167 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate - 500 - application/json;+charset=utf-8 515.9614ms
+INFO  2024-09-19 10:31:44,042 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/College/GetAll - - -
+INFO  2024-09-19 10:31:44,060 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ProJeliliV1.Colleges.CollegeAppService.GetAllAsync (ProJeliliV1.Application)'
+INFO  2024-09-19 10:31:44,070 [27   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "College"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[ProJeliliV1.Colleges.Dto.CollegeDto]] GetAllAsync(ProJeliliV1.Colleges.Dto.PagedCollegeResultRequestDto) on controller ProJeliliV1.Colleges.CollegeAppService (ProJeliliV1.Application).
+ERROR 2024-09-19 10:31:44,074 [27   ] Mvc.ExceptionHandling.AbpExceptionFilter - Can't create component 'ProJeliliV1.Colleges.CollegeAppService' as it has dependencies to be satisfied.
+
+'ProJeliliV1.Colleges.CollegeAppService' is waiting for the following dependencies:
+- Service 'Abp.Domain.Repositories.IRepository`2[[ProJeliliV1.Models.College, ProJeliliV1.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' which was not registered.
+
+Castle.MicroKernel.Handlers.HandlerException: Can't create component 'ProJeliliV1.Colleges.CollegeAppService' as it has dependencies to be satisfied.
+
+'ProJeliliV1.Colleges.CollegeAppService' is waiting for the following dependencies:
+- Service 'Abp.Domain.Repositories.IRepository`2[[ProJeliliV1.Models.College, ProJeliliV1.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' which was not registered.
+
+   at Castle.MicroKernel.Handlers.DefaultHandler.AssertNotWaitingForDependency()
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetServiceInternal(Type serviceType, Boolean isOptional)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2024-09-19 10:31:44,085 [27   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_1='?' (DbType = Int32), @___sourceName_0='?', @__CultureInfo_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."Key", a."LanguageName", a."LastModificationTime", a."LastModifierUserId", a."Source", a."TenantId", a."Value"
+FROM "AbpLanguageTexts" AS a
+WHERE (@__ef_filter__p_0 OR a."TenantId" = @__ef_filter__CurrentTenantId_1) AND a."Source" = @___sourceName_0 AND a."LanguageName" = @__CultureInfo_Name_1
+INFO  2024-09-19 10:31:44,092 [27   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @___sourceName_0='?', @__CultureInfo_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."Key", a."LanguageName", a."LastModificationTime", a."LastModifierUserId", a."Source", a."TenantId", a."Value"
+FROM "AbpLanguageTexts" AS a
+WHERE (@__ef_filter__p_0 OR a."TenantId" IS NULL) AND a."Source" = @___sourceName_0 AND a."LanguageName" = @__CultureInfo_Name_1
+INFO  2024-09-19 10:31:44,093 [27   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-09-19 10:31:44,094 [27   ] c.Infrastructure.ControllerActionInvoker - Executed action ProJeliliV1.Colleges.CollegeAppService.GetAllAsync (ProJeliliV1.Application) in 23.9818ms
+INFO  2024-09-19 10:31:44,094 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ProJeliliV1.Colleges.CollegeAppService.GetAllAsync (ProJeliliV1.Application)'
+INFO  2024-09-19 10:31:44,094 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/College/GetAll - 500 - application/json;+charset=utf-8 53.1106ms
+INFO  2024-09-19 10:31:50,052 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/College/GetAll - - -
+INFO  2024-09-19 10:31:50,053 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ProJeliliV1.Colleges.CollegeAppService.GetAllAsync (ProJeliliV1.Application)'
+INFO  2024-09-19 10:31:50,054 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "College"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[ProJeliliV1.Colleges.Dto.CollegeDto]] GetAllAsync(ProJeliliV1.Colleges.Dto.PagedCollegeResultRequestDto) on controller ProJeliliV1.Colleges.CollegeAppService (ProJeliliV1.Application).
+ERROR 2024-09-19 10:31:50,055 [30   ] Mvc.ExceptionHandling.AbpExceptionFilter - Can't create component 'ProJeliliV1.Colleges.CollegeAppService' as it has dependencies to be satisfied.
+
+'ProJeliliV1.Colleges.CollegeAppService' is waiting for the following dependencies:
+- Service 'Abp.Domain.Repositories.IRepository`2[[ProJeliliV1.Models.College, ProJeliliV1.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' which was not registered.
+
+Castle.MicroKernel.Handlers.HandlerException: Can't create component 'ProJeliliV1.Colleges.CollegeAppService' as it has dependencies to be satisfied.
+
+'ProJeliliV1.Colleges.CollegeAppService' is waiting for the following dependencies:
+- Service 'Abp.Domain.Repositories.IRepository`2[[ProJeliliV1.Models.College, ProJeliliV1.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' which was not registered.
+
+   at Castle.MicroKernel.Handlers.DefaultHandler.AssertNotWaitingForDependency()
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetServiceInternal(Type serviceType, Boolean isOptional)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2024-09-19 10:31:50,055 [30   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-09-19 10:31:50,055 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action ProJeliliV1.Colleges.CollegeAppService.GetAllAsync (ProJeliliV1.Application) in 0.9532ms
+INFO  2024-09-19 10:31:50,055 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ProJeliliV1.Colleges.CollegeAppService.GetAllAsync (ProJeliliV1.Application)'
+INFO  2024-09-19 10:31:50,056 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/College/GetAll - 500 - application/json;+charset=utf-8 3.9669ms
+INFO  2024-09-19 10:31:50,217 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/favicon.ico - - -
+INFO  2024-09-19 10:31:50,219 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/favicon.ico - 404 0 - 1.9963ms
+INFO  2024-09-19 10:31:50,220 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44311/favicon.ico, Response status code: 404
