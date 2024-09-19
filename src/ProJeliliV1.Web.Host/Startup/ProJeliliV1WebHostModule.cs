@@ -26,6 +26,7 @@ namespace ProJeliliV1.Web.Host.Startup
 
         public override void PreInitialize()
         {
+            Configuration.BackgroundJobs.IsJobExecutionEnabled = false;
             System.AppContext.SetSwitch("Npgsql.DisableDateTimeInfinityConversions", true);
             System.AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
             

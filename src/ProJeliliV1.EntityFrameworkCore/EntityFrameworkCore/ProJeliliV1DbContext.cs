@@ -3,6 +3,7 @@ using Abp.Zero.EntityFrameworkCore;
 using ProJeliliV1.Authorization.Roles;
 using ProJeliliV1.Authorization.Users;
 using ProJeliliV1.MultiTenancy;
+using ProJeliliV1.Models;
 
 namespace ProJeliliV1.EntityFrameworkCore
 {
@@ -23,5 +24,7 @@ namespace ProJeliliV1.EntityFrameworkCore
                 .HasMaxLength(100);
 
         } 
+        
+        public virtual DbSet<Student> Students { get; set; }
     }
 }
